@@ -132,4 +132,3 @@ SELECT concat(customers.first_name,' ' ,customers.last_name) AS C_fullname,
 	   JOIN products ON order_items.product_id=products.product_id;
 
 
--- AT THE END I HOPE I Did THIS PROJEJT AS YOU NEED --
