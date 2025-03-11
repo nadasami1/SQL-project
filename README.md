@@ -25,16 +25,23 @@ Import data: Navigate to your database > Tasks > Import Flat Files, then upload 
 ##SQL Queries Used:
 
 Customer Data: Display customer names and cities, and analyze customer orders.
+
 Product Pricing: Display maximum, minimum, and average product prices, as well as product price distribution.
+
 Order Details: Query the number of orders for each customer, and display detailed order information.
+
 Inventory Management: Query stock data for products in different stores.
+
 Category and Product Information: Display categories and their associated products, including prices.
 
 ##Results:
 
 Over 1000 customers were found from the state of New York.
+
 282 products were priced below 5000 during the 2017-2019 period.
+
 Store-level stock data was analyzed for stores 1 and 2.
+
 Products were grouped by category and analyzed for their respective prices.
 
 ##How to Run:
