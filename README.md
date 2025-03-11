@@ -1,8 +1,10 @@
-#"Bike Store Analysis using SQL"
+#Bike Store Analysis using SQL
 
-##Introduction:This project analyzes data from a bike store, utilizing SQL queries to explore various relationships between customers, products, stores, and orders. The analysis is performed using the dataset uploaded to SQL Server Management Studio (SSMS) after performing necessary preprocessing steps.
+##Introduction:
+This project analyzes data from a bike store, utilizing SQL queries to explore various relationships between customers, products, stores, and orders. The analysis is performed using the dataset uploaded to SQL Server Management Studio (SSMS) after performing necessary preprocessing steps.
 
-##Features:Customer Analysis: Display of customer information, including city distribution and order frequency.
+##Features:
+Customer Analysis: Display of customer information, including city distribution and order frequency.
 Product Analysis: Querying product data to display maximum, minimum, and average prices for each product category.
 Order Analysis: Analysis of the number of orders placed by each customer, and display of order details such as order ID and dates.
 Inventory Analysis: Querying stock quantities across different stores.
@@ -10,7 +12,8 @@ Category Analysis: Display of products under each category, including product na
 
 [dataset link]("https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database")
 
-##Steps to Upload Data to SSMS:Create a database: Create a database named BIKESTORE_DB.
+##Steps to Upload Data to SSMS:
+Create a database: Create a database named BIKESTORE_DB.
 Import data: Navigate to your database > Tasks > Import Flat Files, then upload each table from the dataset.
 
 ##SQL Queries Used:
@@ -27,8 +30,10 @@ Store-level stock data was analyzed for stores 1 and 2.
 Products were grouped by category and analyzed for their respective prices.
 
 
-##How to Run:Clone the repository and import the provided SQL scripts into your SQL Server environment.
+##How to Run:
+Clone the repository and import the provided SQL scripts into your SQL Server environment.
 Set up the dataset in SSMS using the steps mentioned above.
 Run the provided queries to explore the bike store data.
 
-##Conclusion:This project helps understand the operations of a bike store by analyzing its sales, customers, products, and inventory using SQL.
+##Conclusion:
+This project helps understand the operations of a bike store by analyzing its sales, customers, products, and inventory using SQL.
