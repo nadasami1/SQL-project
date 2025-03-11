@@ -12,12 +12,15 @@ Order Analysis: Analysis of the number of orders placed by each customer, and di
 Inventory Analysis: Querying stock quantities across different stores.
 Category Analysis: Display of products under each category, including product names and prices.
 
-[dataset link]("https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database")
+[dataset link](https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database)
 
 ##Steps to Upload Data to SSMS:
 
 Create a database: Create a database named BIKESTORE_DB.
 Import data: Navigate to your database > Tasks > Import Flat Files, then upload each table from the dataset.
+
+##schema:
+![image](https://github.com/user-attachments/assets/a2bd3d7f-1029-4c7e-8ab7-675cfcdd4421)
 
 ##SQL Queries Used:
 
