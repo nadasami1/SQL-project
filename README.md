@@ -34,13 +34,12 @@ This project answers business questions about a bike store by querying a relatio
 
 ## 💻 Sample Queries
 
---Display customers name and the products they buy
-SELECT concat(customers.first_name,' ' ,customers.last_name) AS C_fullname,
-	   products.product_name
-	   from customers
-	   JOIN orders ON customers.customer_id=orders.customer_id
-	   JOIN order_items ON orders.order_id=order_items.order_id
-	   JOIN products ON order_items.product_id=products.product_id;
+-- Number of orders per customer
+SELECT c.first_name, c.last_name, COUNT(o.order_id) AS total_orders
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+GROUP BY c.first_name, c.last_name
+ORDER BY total_orders DESC;
 
 ## ⚙️ How to Run
 
