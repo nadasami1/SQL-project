@@ -13,7 +13,7 @@ This project answers business questions about a bike store by querying a relatio
 
 ## 🗂️ Database Schema
 
-![Schema](DatabaseSchema.png)
+![Schema](Database Schema.png)
 
 ## 🔍 What I Analyzed
 
