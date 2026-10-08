@@ -33,15 +33,15 @@ This project answers business questions about a bike store by querying a relatio
 - Products were grouped by category to compare price ranges.
 
 ## 💻 Sample Queries
-
---Display customers name and the products they buy
-SELECT concat(customers.first_name,' ' ,customers.last_name) AS C_fullname,
-	   products.product_name
-	   from customers
-	   JOIN orders ON customers.customer_id=orders.customer_id
-	   JOIN order_items ON orders.order_id=order_items.order_id
-	   JOIN products ON order_items.product_id=products.product_id;
-
+```sql
+-- Display customers' names and the products they bought
+SELECT CONCAT(customers.first_name, ' ', customers.last_name) AS C_fullname,
+       products.product_name
+FROM customers
+JOIN orders ON customers.customer_id = orders.customer_id
+JOIN order_items ON orders.order_id = order_items.order_id
+JOIN products ON order_items.product_id = products.product_id;
+```
 ## ⚙️ How to Run
 
 1. Clone the repository:
